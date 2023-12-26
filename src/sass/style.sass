@@ -1,6 +1,77 @@
 @import "normalizes.scss"
 @import "resets.scss"
 
-h1
-    color: green
-    font-size: 72px
+$background-blue-color: #C3D3FD
+$background-red-color: #F2A8A9
+$font-blue-color: #00305C
+$font-red-color: #6F0002
+$font-path: "../fonts"
+
+@font-face 
+    font-family: 'InriaBold'
+    src: url("#{$font-path}/InriaSerif-Bold.ttf") format("truetype")
+    font-style: normal
+
+@font-face 
+    font-family: 'Roboto!'
+    src: url("#{$font-path}/Roboto-Bold.ttf") format("truetype")
+    font-weight: 700
+    font-style: normal
+
+@font-face 
+    font-family: 'Roboto!'
+    src: url("#{$font-path}/Roboto-Regular.ttf") format("truetype")
+    font-weight: 400
+    font-style: normal
+
+
+.container
+    max-width: 1110px
+    margin: 0 auto
+
+.upper-section
+    width: 1140px
+    height: 125px
+    margin: 0 auto
+    background: $background-blue-color
+    padding-top: 50px
+    padding-left: 16px
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        align-items: center
+
+.nav-menu
+    &__list
+        padding-left: 38px
+        padding-top: 35px
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+    
+    &__list-item
+        margin-right: 60px
+        &:last-child
+            margin-right: 0px
+
+    &__fast-jump
+        text-decoration: none
+        font-family: 'Roboto!'
+        font-weight: 700
+        font-size: 24px
+        color: $font-blue-color
+        &::before
+            content: ''
+            display: block
+            width: 100%
+            height: 5px
+            transform: scaleX(0)
+            background-color: $font-blue-color
+            transition: all 0.8s
+        &:hover::before
+            transform: scaleX(1)
+
+
+
+

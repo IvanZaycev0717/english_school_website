@@ -432,10 +432,92 @@ table {
   border-spacing: 0;
 }
 
-/* line 4, E:/PETS/english_school_website/src/sass/style.sass */
-h1 {
-  color: green;
-  font-size: 72px;
+@font-face {
+  font-family: 'InriaBold';
+  src: url("../fonts/InriaSerif-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto!';
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto!';
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 28, E:/PETS/english_school_website/src/sass/style.sass */
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* line 32, E:/PETS/english_school_website/src/sass/style.sass */
+.upper-section {
+  width: 1140px;
+  height: 125px;
+  margin: 0 auto;
+  background: #C3D3FD;
+  padding-top: 50px;
+  padding-left: 16px;
+}
+
+/* line 39, E:/PETS/english_school_website/src/sass/style.sass */
+.upper-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 46, E:/PETS/english_school_website/src/sass/style.sass */
+.nav-menu__list {
+  padding-left: 38px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* line 53, E:/PETS/english_school_website/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 60px;
+}
+
+/* line 55, E:/PETS/english_school_website/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 58, E:/PETS/english_school_website/src/sass/style.sass */
+.nav-menu__fast-jump {
+  text-decoration: none;
+  font-family: 'Roboto!';
+  font-weight: 700;
+  font-size: 24px;
+  color: #00305C;
+}
+
+/* line 64, E:/PETS/english_school_website/src/sass/style.sass */
+.nav-menu__fast-jump::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  transform: scaleX(0);
+  background-color: #00305C;
+  transition: all 0.8s;
+}
+
+/* line 72, E:/PETS/english_school_website/src/sass/style.sass */
+.nav-menu__fast-jump:hover::before {
+  transform: scaleX(1);
 }
 
 /*# sourceMappingURL=style.css.map */
