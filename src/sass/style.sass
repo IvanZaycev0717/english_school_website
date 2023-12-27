@@ -1,10 +1,17 @@
 @import "normalizes.scss"
 @import "resets.scss"
 
+*
+    box-sizing: border-box
+
+// colors
 $background-blue-color: #C3D3FD
 $background-red-color: #F2A8A9
 $font-blue-color: #00305C
 $font-red-color: #6F0002
+
+
+//fonts
 $font-path: "../fonts"
 
 @font-face 
@@ -24,7 +31,7 @@ $font-path: "../fonts"
     font-weight: 400
     font-style: normal
 
-
+// styles
 .container
     max-width: 1110px
     margin: 0 auto
@@ -34,20 +41,18 @@ $font-path: "../fonts"
     height: 125px
     margin: 0 auto
     background: $background-blue-color
-    padding-top: 50px
-    padding-left: 16px
+    display: flex
+    align-items: center
     &__nav-container
-        display: flex
-        flex-direction: row
+        display: inline-flex
         justify-content: flex-start
         align-items: center
 
 .nav-menu
     &__list
         padding-left: 38px
-        padding-top: 35px
-        display: flex
-        flex-direction: row
+        padding-top: 30px
+        display: inline-flex
         justify-content: flex-start
     
     &__list-item
@@ -71,6 +76,15 @@ $font-path: "../fonts"
             transition: all 0.8s
         &:hover::before
             transform: scaleX(1)
+
+.logo_behave
+    transform: scale(1)
+    transition: transform 0.3s ease-in-out
+    img
+        width: 325px
+        height: 64px
+    &:hover
+        transform: scale(1.05)
 
 
 
