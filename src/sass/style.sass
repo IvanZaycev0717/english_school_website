@@ -1,10 +1,22 @@
 @import "normalizes.scss"
 @import "resets.scss"
 
+// Метод расчета размера блока
 *
     box-sizing: border-box
 
-// colors
+
+// Автоматическое переключение между светлой и темной темой
+body 
+  background: #fff
+
+
+@media (prefers-color-scheme: dark)
+  body 
+    background: #121212
+
+
+// Цвета
 $background-blue-color: #C3D3FD
 $background-red-color: #F2A8A9
 $gradient-blue-red: linear-gradient($background-blue-color, $background-red-color)
@@ -15,7 +27,7 @@ $font-blue-color: #00305C
 $font-red-color: #6F0002
 
 
-//fonts
+// Шрифты
 $font-path: "../fonts"
 
 @font-face 
@@ -35,7 +47,7 @@ $font-path: "../fonts"
     font-weight: 400
     font-style: normal
 
-// styles
+// Стили
 .container
     max-width: 1110px
     margin: 0 auto
