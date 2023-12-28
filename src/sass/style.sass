@@ -5,6 +5,13 @@
 *
     box-sizing: border-box
 
+// Плавная прокрутка при переходе по ссылкам
+html
+    scroll-behavior: smooth
+
+// Текст выделяется темно-оранжевым цветом
+::selection
+        background-color: #d98c00
 
 // Автоматическое переключение между светлой и темной темой
 body 
@@ -16,7 +23,9 @@ body
     background: #121212
 
 
-// Цвета
+
+
+// Цвета сайта
 $background-blue-color: #C3D3FD
 $background-red-color: #F2A8A9
 $gradient-blue-red: linear-gradient($background-blue-color, $background-red-color)
@@ -31,7 +40,7 @@ $font-red-color: #6F0002
 $font-path: "../fonts"
 
 @font-face 
-    font-family: 'InriaBold'
+    font-family: 'InriaBold!'
     src: url("#{$font-path}/InriaSerif-Bold.ttf") format("truetype")
     font-style: normal
 
@@ -185,26 +194,26 @@ $font-path: "../fonts"
         transform: scale(1.05)
 
 .icons
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
     &__icon
         width: 70px
         height: 70px
-        margin-right: 40px
         transform: scale(1)
         transition: transform 0.2s ease-in-out
-        &:last-child
-            margin-right: 0px
         &:hover
             transform: scale(1.1)
 
 .main-text
     h1
         font-size: 96px
-        font-family: InriaBold
+        font-family: 'InriaBold!'
         color: $font-blue-color
         margin-bottom: 15px
     &__logo
         font-size: 48px
-        font-family: InriaBold
+        font-family: 'InriaBold!'
         color: $font-red-color
     hr
         margin: 0px
