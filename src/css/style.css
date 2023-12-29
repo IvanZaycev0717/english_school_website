@@ -479,14 +479,14 @@ body {
   font-style: normal;
 }
 
-/* line 60, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 61, E:/PETS/english_school_website/src/sass/style.sass */
 .container {
   max-width: 1110px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 66, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 67, E:/PETS/english_school_website/src/sass/style.sass */
 .upper-section {
   width: 1140px;
   height: 125px;
@@ -499,7 +499,7 @@ body {
   z-index: 100;
 }
 
-/* line 76, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 77, E:/PETS/english_school_website/src/sass/style.sass */
 .upper-section__nav-container {
   position: sticky;
   top: 0;
@@ -508,7 +508,7 @@ body {
   align-items: center;
 }
 
-/* line 83, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 84, E:/PETS/english_school_website/src/sass/style.sass */
 .main-section {
   height: 675px;
   width: 1140px;
@@ -516,119 +516,266 @@ body {
   margin: 0 auto;
 }
 
-/* line 88, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 89, E:/PETS/english_school_website/src/sass/style.sass */
 .main-section__container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-/* line 92, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 93, E:/PETS/english_school_website/src/sass/style.sass */
 .main-section__right-wrapper {
   padding-top: 120px;
   margin-bottom: 65px;
 }
 
-/* line 95, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 96, E:/PETS/english_school_website/src/sass/style.sass */
 .main-section__line {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 100, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 101, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section {
   position: relative;
   margin: 0 auto;
-  height: 800px;
+  height: 925px;
   width: 1140px;
   background: linear-gradient(#F2A8A9, #C3D3FD);
 }
 
-/* line 106, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 107, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__upper-p {
   position: absolute;
   top: 120px;
   left: 375px;
 }
 
-/* line 110, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 111, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__tower-img {
   position: absolute;
   top: 483px;
   left: 41px;
 }
 
-/* line 114, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 115, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__hand-img {
   position: absolute;
   top: 425px;
   left: 720px;
 }
 
-/* line 118, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 119, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__usa-flag-round {
   position: absolute;
   top: 120px;
   left: 905px;
 }
 
-/* line 122, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 123, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__uk-flag-round {
   position: absolute;
   top: 295px;
   left: 465px;
 }
 
-/* line 126, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 127, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__au-flag-round {
   position: absolute;
   top: 633px;
   left: 587px;
 }
 
-/* line 130, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 131, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__middle-p {
   position: absolute;
   top: 279px;
   left: 630px;
 }
 
-/* line 134, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 135, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__lower-p {
   position: absolute;
   top: 450px;
   left: 257px;
 }
 
-/* line 138, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 139, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__line {
   position: absolute;
   top: 763px;
   left: 52px;
 }
 
-/* line 142, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 143, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__usa-flag-square {
   position: absolute;
   top: 61px;
   left: -86px;
 }
 
-/* line 146, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 147, E:/PETS/english_school_website/src/sass/style.sass */
 .about-section__uk-flag-square {
   position: absolute;
   top: 577px;
   left: 1058px;
 }
 
-/* line 154, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 153, E:/PETS/english_school_website/src/sass/style.sass */
+.program-section {
+  margin: 0 auto;
+  height: 925px;
+  width: 1140px;
+  background: linear-gradient(#C3D3FD, #F2A8A9);
+  position: relative;
+}
+
+/* line 159, E:/PETS/english_school_website/src/sass/style.sass */
+.program-section__first-string {
+  position: absolute;
+  top: 38px;
+  left: 46px;
+}
+
+/* line 163, E:/PETS/english_school_website/src/sass/style.sass */
+.program-section__second-string {
+  position: absolute;
+  top: 45px;
+  left: 500px;
+}
+
+/* line 167, E:/PETS/english_school_website/src/sass/style.sass */
+.program-section__third-string {
+  position: absolute;
+  top: 370px;
+  left: 25px;
+}
+
+/* line 171, E:/PETS/english_school_website/src/sass/style.sass */
+.program-section__fourth-string {
+  position: absolute;
+  top: 363px;
+  left: 520px;
+}
+
+/* line 175, E:/PETS/english_school_website/src/sass/style.sass */
+.program-section__fifth-string {
+  position: absolute;
+  top: 670px;
+  left: 20px;
+}
+
+/* line 179, E:/PETS/english_school_website/src/sass/style.sass */
+.program-section__sixth-string {
+  position: absolute;
+  top: 733px;
+  left: 6px;
+}
+
+/* line 188, E:/PETS/english_school_website/src/sass/style.sass */
+.schedule-section {
+  margin: 0 auto;
+  height: 925px;
+  width: 1140px;
+  background: linear-gradient(#F2A8A9, #C3D3FD);
+}
+
+/* line 193, E:/PETS/english_school_website/src/sass/style.sass */
+.schedule-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 199, E:/PETS/english_school_website/src/sass/style.sass */
+.schedule-section__right-wrapper {
+  padding-top: 120px;
+  margin-bottom: 200px;
+}
+
+/* line 202, E:/PETS/english_school_website/src/sass/style.sass */
+.schedule-section__line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+/* line 207, E:/PETS/english_school_website/src/sass/style.sass */
+.schedule-section__flags-string {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 212, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section {
+  margin: 0 auto;
+  height: 925px;
+  width: 1140px;
+  background: linear-gradient(#C3D3FD, #F2A8A9);
+  position: relative;
+}
+
+/* line 218, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section__address {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+/* line 222, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section__street {
+  position: absolute;
+  top: 130px;
+  left: 50px;
+}
+
+/* line 226, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section__social {
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+
+/* line 230, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section__icons-box {
+  position: absolute;
+  width: 350px;
+  top: 550px;
+  left: 50px;
+}
+
+/* line 235, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section__telephon {
+  position: absolute;
+  top: 570px;
+  left: 450px;
+}
+
+/* line 239, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section__number {
+  position: absolute;
+  top: 575px;
+  left: 680px;
+}
+
+/* line 243, E:/PETS/english_school_website/src/sass/style.sass */
+.contacts-section__map {
+  position: absolute;
+  top: 30px;
+  left: 450px;
+}
+
+/* line 251, E:/PETS/english_school_website/src/sass/style.sass */
 .main-picture img {
   width: 590px;
   height: 590px;
 }
 
-/* line 159, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 256, E:/PETS/english_school_website/src/sass/style.sass */
 .nav-menu__list {
   padding-left: 38px;
   padding-top: 30px;
@@ -636,26 +783,27 @@ body {
   justify-content: flex-start;
 }
 
-/* line 165, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 262, E:/PETS/english_school_website/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 60px;
 }
 
-/* line 167, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 264, E:/PETS/english_school_website/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0px;
 }
 
-/* line 170, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 267, E:/PETS/english_school_website/src/sass/style.sass */
 .nav-menu__fast-jump {
   text-decoration: none;
+  position: relative;
   font-family: 'Roboto!';
   font-weight: 700;
   font-size: 24px;
   color: #00305C;
 }
 
-/* line 176, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 274, E:/PETS/english_school_website/src/sass/style.sass */
 .nav-menu__fast-jump::before {
   content: '';
   display: block;
@@ -666,36 +814,41 @@ body {
   transition: all 0.8s;
 }
 
-/* line 184, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 282, E:/PETS/english_school_website/src/sass/style.sass */
 .nav-menu__fast-jump:hover::before {
   transform: scaleX(1);
 }
 
-/* line 187, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 284, E:/PETS/english_school_website/src/sass/style.sass */
+.nav-menu__fast-jump:target {
+  scroll-top: -200px;
+}
+
+/* line 287, E:/PETS/english_school_website/src/sass/style.sass */
 .logo_behave {
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
 }
 
-/* line 190, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 290, E:/PETS/english_school_website/src/sass/style.sass */
 .logo_behave img {
   width: 325px;
   height: 64px;
 }
 
-/* line 193, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 293, E:/PETS/english_school_website/src/sass/style.sass */
 .logo_behave:hover {
   transform: scale(1.05);
 }
 
-/* line 196, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 296, E:/PETS/english_school_website/src/sass/style.sass */
 .icons {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-/* line 200, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 300, E:/PETS/english_school_website/src/sass/style.sass */
 .icons__icon {
   width: 70px;
   height: 70px;
@@ -703,12 +856,12 @@ body {
   transition: transform 0.2s ease-in-out;
 }
 
-/* line 205, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 305, E:/PETS/english_school_website/src/sass/style.sass */
 .icons__icon:hover {
   transform: scale(1.1);
 }
 
-/* line 209, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 309, E:/PETS/english_school_website/src/sass/style.sass */
 .main-text h1 {
   font-size: 96px;
   font-family: 'InriaBold!';
@@ -716,37 +869,40 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 214, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 314, E:/PETS/english_school_website/src/sass/style.sass */
 .main-text__logo {
   font-size: 48px;
   font-family: 'InriaBold!';
   color: #6F0002;
 }
 
-/* line 218, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 318, E:/PETS/english_school_website/src/sass/style.sass */
 .main-text hr {
   margin: 0px;
   margin-bottom: 58px;
+  border: none;
+  border-top: 2px solid #00305C;
 }
 
-/* line 221, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 323, E:/PETS/english_school_website/src/sass/style.sass */
 .main-text__slogan {
   font-size: 32px;
   font-family: 'Roboto!';
   margin-bottom: 68px;
 }
 
-/* line 226, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 328, E:/PETS/english_school_website/src/sass/style.sass */
 .title h2 {
   font-size: 48px;
   font-family: 'Roboto!';
   color: #00305C;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
 }
 
-/* line 233, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 336, E:/PETS/english_school_website/src/sass/style.sass */
 .title p {
   font-size: 32px;
   font-family: 'Roboto!';
@@ -755,37 +911,37 @@ body {
   justify-content: center;
 }
 
-/* line 240, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 343, E:/PETS/english_school_website/src/sass/style.sass */
 .books-svg {
   width: 362px;
   height: 344px;
 }
 
-/* line 244, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 347, E:/PETS/english_school_website/src/sass/style.sass */
 .tower-svg {
   width: 440px;
   height: 317px;
 }
 
-/* line 248, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 351, E:/PETS/english_school_website/src/sass/style.sass */
 .hand-svg {
   width: 346px;
   height: 346px;
 }
 
-/* line 253, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 356, E:/PETS/english_school_website/src/sass/style.sass */
 .round-flags {
   width: 100px;
   height: 100px;
 }
 
-/* line 257, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 360, E:/PETS/english_school_website/src/sass/style.sass */
 .square-flags {
   width: 133px;
   height: 95px;
 }
 
-/* line 261, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 364, E:/PETS/english_school_website/src/sass/style.sass */
 .text {
   width: 460px;
   height: 200px;
@@ -794,9 +950,170 @@ body {
   color: #6F0002;
 }
 
-/* line 267, E:/PETS/english_school_website/src/sass/style.sass */
+/* line 370, E:/PETS/english_school_website/src/sass/style.sass */
 .text_right {
   text-align: right;
+}
+
+/* line 373, E:/PETS/english_school_website/src/sass/style.sass */
+#about {
+  height: 150px;
+  text-align: center;
+}
+
+/* line 376, E:/PETS/english_school_website/src/sass/style.sass */
+#about img {
+  width: 350px;
+  height: 110px;
+}
+
+/* line 380, E:/PETS/english_school_website/src/sass/style.sass */
+#programs {
+  height: 150px;
+  text-align: center;
+}
+
+/* line 383, E:/PETS/english_school_website/src/sass/style.sass */
+#programs img {
+  width: 350px;
+  height: 110px;
+}
+
+/* line 387, E:/PETS/english_school_website/src/sass/style.sass */
+#schedule {
+  height: 150px;
+  text-align: center;
+}
+
+/* line 390, E:/PETS/english_school_website/src/sass/style.sass */
+#schedule img {
+  width: 350px;
+  height: 110px;
+}
+
+/* line 394, E:/PETS/english_school_website/src/sass/style.sass */
+#contacts {
+  height: 150px;
+  text-align: center;
+}
+
+/* line 397, E:/PETS/english_school_website/src/sass/style.sass */
+#contacts img {
+  width: 350px;
+  height: 110px;
+}
+
+/* line 400, E:/PETS/english_school_website/src/sass/style.sass */
+.text-box {
+  width: 460px;
+  height: 200px;
+}
+
+/* line 403, E:/PETS/english_school_website/src/sass/style.sass */
+.text-box_right {
+  width: 442px;
+  height: 100px;
+  text-align: left;
+}
+
+/* line 408, E:/PETS/english_school_website/src/sass/style.sass */
+.text-string {
+  text-align: right;
+}
+
+/* line 410, E:/PETS/english_school_website/src/sass/style.sass */
+.text-string_upper {
+  font-family: 'Roboto!';
+  font-weight: 400;
+  font-size: 32px;
+  color: #00305C;
+}
+
+/* line 415, E:/PETS/english_school_website/src/sass/style.sass */
+.text-string hr {
+  float: right;
+  margin-bottom: 5px;
+  border: none;
+  border-top: 2px solid #00305C;
+}
+
+/* line 420, E:/PETS/english_school_website/src/sass/style.sass */
+.text-string_lower {
+  font-family: 'Roboto!';
+  font-weight: 400;
+  font-size: 20px;
+  color: #6F0002;
+  margin-bottom: 20px;
+}
+
+/* line 427, E:/PETS/english_school_website/src/sass/style.sass */
+.image-box {
+  width: 460px;
+  height: 290px;
+  border-radius: 50px;
+  background-image: url("../img/kids7.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+/* line 434, E:/PETS/english_school_website/src/sass/style.sass */
+.image-box_lower {
+  background-image: url("../img/kids15.jpg");
+}
+
+/* line 437, E:/PETS/english_school_website/src/sass/style.sass */
+.slogan {
+  width: 1000px;
+  font-size: 26px;
+  font-family: 'Roboto!';
+  color: #00305C;
+  text-align: center;
+}
+
+/* line 444, E:/PETS/english_school_website/src/sass/style.sass */
+.london-img {
+  display: flex;
+  width: 558px;
+  height: 508px;
+}
+
+/* line 450, E:/PETS/english_school_website/src/sass/style.sass */
+.schedule-text h2 {
+  font-size: 48px;
+  font-family: 'Roboto!';
+  color: #00305C;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* line 456, E:/PETS/english_school_website/src/sass/style.sass */
+.schedule-text li {
+  font-size: 24px;
+  font-family: 'Roboto!';
+  color: #6F0002;
+  margin-bottom: 20px;
+}
+
+/* line 463, E:/PETS/english_school_website/src/sass/style.sass */
+.contact-text__blue {
+  font-size: 48px;
+  font-family: 'Roboto!';
+  color: #00305C;
+}
+
+/* line 467, E:/PETS/english_school_website/src/sass/style.sass */
+.contact-text__red {
+  font-size: 40px;
+  font-family: 'Roboto!';
+  color: #6F0002;
+}
+
+/* line 472, E:/PETS/english_school_website/src/sass/style.sass */
+.lower-section {
+  margin: 0 auto;
+  background-color: #F2A8A9;
+  height: 35px;
+  border: 4px solid #C3D3FD;
 }
 
 /*# sourceMappingURL=style.css.map */
